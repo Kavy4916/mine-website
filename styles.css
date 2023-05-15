@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: rgb(39, 114, 18);
+}
+ header {   
+    position: sticky;   
+    top: 0;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(39, 114, 18);
+}
+.element{
+    color: white;
+    margin: 15px;
+    font-size: 18px;
+}
+.material{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 400px;
+    gap: 20px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-img{
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    font-size: larger;
+}
+h1{
+    margin-bottom: 10px;
+}
+.discription{
+    background-color: rgb(39, 114, 18);
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 450;
+    color: white;
+    margin: 10px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: large;
+    font-weight: 700;
+    margin: 2px;
+}
+.logo{
+    height: 40px;
+}
+h2{
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(39, 114, 18);
+}
